@@ -159,6 +159,10 @@
 
     function print_text_results($results)
     {
+
+        if (empty($results))
+            return;
+
         $special = $results[0];
         if (array_key_exists("special_response", $special))
         {
