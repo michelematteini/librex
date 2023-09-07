@@ -5,7 +5,7 @@
         "google_domain" => "com",
 
         // Google results will be in this language
-        "google_language_site" => "",
+        "google_language_site" => "en",
         "google_language_results" => "",
         "google_number_of_results" => 10,
 
