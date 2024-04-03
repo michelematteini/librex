@@ -22,7 +22,7 @@
                 array (
                     "thumbnail" => htmlspecialchars($imgs[$i]["thumbnail"]),
                     "alt" => htmlspecialchars($imgs[$i]["title"]),
-                    "url" => htmlspecialchars($imgs[$i]["url"])
+                    "url" => htmlspecialchars($imgs[$i]["media"]) // use "url" for the source site url
                 )
             );
         }
